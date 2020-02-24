@@ -1,6 +1,6 @@
-var chocolateBars = ['snickers', 'hundred grand','kitkat', 'skittles'];
+var chocolateBars = ["snickers", "hundred grand","kitkat", "skittles"];
 
-function addElementToBeginningOfArray(array, element) {
+/* function addElementToBeginningOfArray(array, element) {
 return ['foo' ...array];
 }
 
@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray([], element) {
   return array;
 }
 
-/* describe('addElementToBeginningOfArray(array, element)', () => {
+ describe('addElementToBeginningOfArray(array, element)', () => {
   it('adds an element to the beginning of an array', () => {
     expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
   })
